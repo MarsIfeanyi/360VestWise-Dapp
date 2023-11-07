@@ -13,7 +13,6 @@ import {
   useContractWrite,
   usePrepareContractWrite,
 } from "wagmi";
-import { Button } from "./ui/button";
 
 export function Vesting() {
   const [userName, setUserName] = useState("");
@@ -63,7 +62,7 @@ export function Vesting() {
     try {
       console.log("creating vesting.....");
       vestTokenWrite?.();
-    } catch (error) {
+    } catch (error: any) {
       //@ts-ignore
       console.error("Error calling vestTokenWrite:", error.message as string);
     }

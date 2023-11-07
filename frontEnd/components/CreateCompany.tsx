@@ -64,7 +64,7 @@ export function CreateCompany() {
     try {
       console.log("creating company.....");
       createCompanyWrite?.();
-    } catch (error) {
+    } catch (error:any) {
       //@ts-ignore
       console.error(
         "Error calling createCompanyWrite:",
