@@ -19,8 +19,6 @@ The contract implements the following features:
 
 https://360-vest-wise.vercel.app/
 
-https://vesting-token-front-end.vercel.app/
-
 ### Contract Addresses
 
 TokenContract:
